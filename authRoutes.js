@@ -8,7 +8,7 @@ const { Pool } = require("pg");
 const router = express.Router();
 
 // this code is used for changing password from hash to plan text here is sql entry 
-// UPDATE users SET password = 'new_hashed_password_here' WHERE email = 'you@example.com';
+// UPDATE users SET password = 'new_hashed_password_here' WHERE email = 'you@example.com'
 
 // // const newPassword = 'yourNewPassword';
 // // bcrypt.hash(newPassword, 10).then(console.log); // this will log the new hash
